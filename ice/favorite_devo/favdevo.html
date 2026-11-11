@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <!-- Add your devotional content here -->
+         <table>
+          <!-- tr stands for table row -->
+          <tr>
+            <!-- th stands for table heading-->
+            <th>Speaker</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <!-- td stands for Table Data -->
+            <td>Elder David A. and Sister Susan K. Bednar</td>
+            <td>BYU-Idaho 25th Anniversary Devotional</td>
+            <td>BYU-Idaho I-Center Auditorium</td>
+            <td>October 08, 2026</td>
+          </tr>
+          <tr>
+            <td>Elder James O. Fantone</td>
+            <td>The Battle Is the Lord's</td>
+            <td>BYU-Idaho I-Center Auditorium</td>
+            <td>September 22, 2026</td>
+          </tr>
+          <tr>
+            <td>Chris Allison</td>
+            <td>Spiritual Revelation</td>
+            <td>BYU-Idaho I-Center Auditorium</td>
+            <td>October 13, 2026</td>
+          </tr>
+         </table>
+
+         <form>
+          <label for="title-name">Speaker: </label>
+          <input type="text" id="speaker-name" required>
+
+          <label for="title-name">Title: </label>
+          <input type="text" id="title-name">
+
+          <label for="location-name">Location: </label>
+          <input type="text" id="location-name">
+
+          <label for="year-name">Year: </label>
+          <input type="text" id="year-name">
+
+          <input type="submit" value="submit">
+         </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
